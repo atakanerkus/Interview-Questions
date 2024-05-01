@@ -1,0 +1,33 @@
+﻿
+@model List<Question2.Models.Person>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Record List</title>
+</head>
+<body>
+    <h2>Record List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in Model)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Surname</td>
+                    <td>@person.Age</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="@Url.Action("RecordAdd", "Home")">Add New Record</a>
+</body>
+</html>
+

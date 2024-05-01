@@ -1,0 +1,21 @@
+﻿@model List<Question2.Models.Person>
+<!-- INCASE SEARCH IS NOT SUCCESFULLLL!!! -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Record Search Result</title>
+</head>
+<body>
+    <h2>Record Search Result</h2>
+    <p>Search results for name containing: @ViewBag.SearchTerm</p>
+
+    <ul>
+        @foreach (var person in Model)
+        {
+            <li>@person.Name - @person.Surname - @person.Age</li>
+        }
+    </ul>
+
+    <a href="@Url.Action("RecordList", "Home")">Back to Record List</a>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Record</title>
+</head>
+<body>
+    <h2>Delete Record</h2>
+    <form method="post" asp-action="RecordDelete">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Delete</button>
+    </form>
+
+    @if (ViewBag.DeleteSuccess != null)
+    {
+        if ((bool)ViewBag.DeleteSuccess) // upcasting gerekiyor tipi belli değil
+        {
+            <p>Record deleted successfully.</p>
+        }
+        else
+        {
+            <p>No record found with the specified name.</p>
+        }
+    }
+
+    <a href="@Url.Action("RecordList", "Home")">Back to Record List</a>
+</body>
+</html>

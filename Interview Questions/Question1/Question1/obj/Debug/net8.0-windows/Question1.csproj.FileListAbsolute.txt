@@ -1,0 +1,16 @@
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.AssemblyInfo.cs
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Question1\Question1\bin\Debug\net8.0-windows\Question1.exe
+C:\Users\hp\source\repos\Question1\Question1\bin\Debug\net8.0-windows\Question1.deps.json
+C:\Users\hp\source\repos\Question1\Question1\bin\Debug\net8.0-windows\Question1.runtimeconfig.json
+C:\Users\hp\source\repos\Question1\Question1\bin\Debug\net8.0-windows\Question1.dll
+C:\Users\hp\source\repos\Question1\Question1\bin\Debug\net8.0-windows\Question1.pdb
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.Form1.resources
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.dll
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\refint\Question1.dll
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.pdb
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\Question1.genruntimeconfig.cache
+C:\Users\hp\source\repos\Question1\Question1\obj\Debug\net8.0-windows\ref\Question1.dll

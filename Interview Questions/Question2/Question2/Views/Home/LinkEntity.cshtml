@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Link Entity";
+}
+
+<h2>Link Entity</h2>
+
+<div>
+    <h3>Actions:</h3>
+    <ul>
+        <li>@Html.ActionLink("Record Add", "RecordAdd", "Home", null, new { @class = "btn btn-primary" })</li>
+        <li>@Html.ActionLink("Record Delete", "RecordDelete", "Home", null, new { @class = "btn btn-danger" })</li>
+        <li>@Html.ActionLink("Record List", "RecordList", "Home", null, new { @class = "btn btn-info" })</li>
+        <li>@Html.ActionLink("Record Search", "RecordSearch", "Home", null, new { @class = "btn btn-warning" })</li>
+    </ul>
+</div>
